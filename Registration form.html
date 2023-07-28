@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML FORM</title>
+	<style>
+		body
+		{
+			background: linear-gradient(45deg,darkred,blue,limegreen);
+			color: white;
+			text-shadow: 0 0 10px white;
+		}
+		h1
+		{
+			text-align: center;
+		}
+		fieldset
+		{
+			border: 2px solid white;
+			padding: 40px;
+		}
+		legend
+		{
+			background-color: yellow;
+			padding: 10px 20px;
+			color: Black;
+		}
+		table
+		{
+			width: 100%;
+		}
+		input[type='text'],input[type='email'],input[type='number'],select,o
+		{
+			height: 34px;
+			width: 300px;
+			margin-top: 15px;
+		}
+	</style>
+	</head>
+<body>
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<form>
+		<fieldset>
+			<legend>Registration Details</legend>
+			<table>
+				<tr>
+					<td><label>First Name</label></td>
+					<td><input type="text" name=""></td>
+				    <td><label>Middle Name</label></td>
+				    <td><input type="text" name=""></td>
+				    <td><label>Last Name</label></td>
+				    <td><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Father's Name</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>Mother's Name</label></td>
+					<td><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Current Address</label></td>
+					<td><textarea cols="25" rows="4"></textarea></td>
+					<td><label>Permanent Address</label></td>
+					<td><textarea cols="25" rows="4"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="email" name=""></td>
+					<td><label>Mobile Number</label></td>
+					<td><input type="number" name=""></td>
+					<tr>
+						<td><label>Select Gender</label></td>
+						<td><input type="radio" name="r1">Male
+						<input type="radio" name="r1">Female
+						<input type="radio" name="r1">Other	
+						</td></tr>
+						<td><label>Select Your Degree</label></td>
+						<td>
+							<select>
+								<option>...Select...</option>
+								<option>Btech</option>
+								<option>MBA</option>
+								<option>MCA</option>
+							</select>
+						</td>
+						<tr>
+							<td><label>Select Languages</label></td>
+							<td>
+								<input type="checkbox" name="">English
+								<input type="checkbox" name="">Hindi
+								<input type="checkbox" name="">Telgu
+							</td>
+						</tr>
+						<tr>
+							<td colspan="6" align="center">
+							<input type="Submit" name="">
+							<input type="Reset" name="">	
+							</td>
+						</tr>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>
